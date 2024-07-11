@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe Landing Page</title>
+    <!-- ! BOOTSTRAP CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- ! GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="circle"></div>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <a href="./index.html">Logo</a>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list--active">
+              <a href="#" class="menu__link">Home</a>
+            </li>
+            <li class="menu__list--dropdown">
+              <a href="#">
+                <div>eng</div>
+                <div><i class="bi bi-chevron-down"></i></div>
+              </a>
+            </li>
+            <li class="menu__list--dropdown">
+              <a href="#">
+                <div>Account</div>
+                <div><i class="bi bi-chevron-down"></i></div>
+              </a>
+            </li>
+            <li class="menu__list--cart">
+              <button class="button">
+                <i class="bi bi-cart"></i>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content">
+        <div class="content__header">
+          <div>
+            <h2>Featured</h2>
+            <h4>Items for men and women</h4>
+          </div>
+          <div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto, error, beatae debitis ipsum unde commodi dignissimos
+              animi nihil iusto eos harum, ratione assumenda recusandae nesciunt
+              aspernatur quod. Debitis, nihil nobis.
+            </p>
+          </div>
+          <button>
+            <i class="bi bi-telephone-fill"></i>
+          </button>
+        </div>
+        <div class="content__image">
+          <img src="./img/shoe.png" alt="shoe" />
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="social">
+          <button>
+            <i class="bi bi-instagram"></i>
+          </button>
+          <button>
+            <i class="bi bi-threads"></i>
+          </button>
+          <button>
+            <i class="bi bi-linkedin"></i>
+          </button>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
