@@ -8,7 +8,7 @@ html {
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #f3f3f3;
+  background-color: #fff;
   min-height: 100vh;
 }
 a {
@@ -50,3 +50,29 @@ button {
   text-transform: uppercase;
 }
 
+.navbar__item > a {
+  color: #005792;
+  border-bottom: 2px solid transparent;
+  font-weight: 500;
+}
+.navbar__item > a:hover {
+  border-bottom-color: #005792;
+  padding-bottom: .25rem;
+}
+
+.navbar__item-btn {
+  background-color: #005792;
+  border: 1px solid #005792;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.navbar__item-btn > a {
+  color: #fff;
+}
+
+.navbar__item-btn:hover {
+  background: transparent;
+}
+.navbar__item-btn:hover > a {
+  color: #005792;
+}
