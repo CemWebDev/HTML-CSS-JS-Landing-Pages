@@ -118,6 +118,10 @@ img {
 .home__content h2 {
   font-size: 2rem;
 }
+
+.home__content h2 span{
+  color: #fdb44b;
+}
 .home__content form {
   position: relative;
   display: flex;
