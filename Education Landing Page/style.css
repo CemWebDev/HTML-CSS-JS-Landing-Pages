@@ -7,3 +7,16 @@
 html {
   font-family: "Poppins", sans-serif;
 }
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+button, input {
+  border: 0;
+  outline: 0;
+}
+button {
+  cursor: pointer;
+}
