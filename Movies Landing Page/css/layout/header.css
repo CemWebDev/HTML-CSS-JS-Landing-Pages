@@ -1,0 +1,18 @@
+.header {
+  height: 5.625rem;
+  display: flex;
+  align-items: center;
+  background-color: red;
+}
+
+.header i {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
