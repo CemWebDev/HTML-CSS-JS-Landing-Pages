@@ -17,6 +17,17 @@ li {
   list-style-type: none;
 }
 
+input,
+button {
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
 .container {
   max-width: 1080px;
   width: 100%;
