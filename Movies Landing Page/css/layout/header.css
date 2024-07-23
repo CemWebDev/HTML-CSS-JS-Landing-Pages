@@ -28,6 +28,10 @@
   gap: 1rem;
 }
 
+.header__list__item a {
+  color: var(--white);
+}
+
 .header__list__item:last-child a {
   display: flex;
   align-items: center;
