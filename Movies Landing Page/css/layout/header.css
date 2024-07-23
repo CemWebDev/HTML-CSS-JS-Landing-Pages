@@ -21,6 +21,17 @@
 .mobile {
   display: none;
 }
+.header__logo span {
+  display: inline;
+}
+
+.header__logo a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--white);
+  font-size: 1.5rem;
+}
 
 .header__list {
   display: flex;
@@ -34,7 +45,7 @@
 }
 
 .header__list__item a:hover {
-    color: var(--hover-color);
+  color: var(--hover-color);
 }
 
 .header__list__item:last-child a {
