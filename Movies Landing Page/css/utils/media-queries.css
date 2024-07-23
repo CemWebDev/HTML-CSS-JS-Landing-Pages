@@ -15,11 +15,17 @@
     position: absolute;
     top: 100%;
     text-align: center;
-    background-color: red;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom:1px solid var(--hover-color);
+    padding: 1rem 0;
+    z-index: 999;
   }
+  .header__list {
+    flex-direction: column;
+    gap: 2rem;
+}
 }
 /* ! header ends */
