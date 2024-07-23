@@ -25,3 +25,18 @@
   align-items: center;
   gap: 1rem;
 }
+
+.header__list__item:last-child a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header__list__item:last-child a span {
+  display: inline-block;
+  width: 4px;
+  border-radius: 50%;
+  height: 4px;
+  box-shadow: 0 0 0 2px #dc2f2f;
+  background-color: #dc2f2f;
+}
