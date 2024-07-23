@@ -30,6 +30,11 @@
 
 .header__list__item a {
   color: var(--white);
+  font-size: 1.2rem;
+}
+
+.header__list__item a:hover {
+    color: var(--hover-color);
 }
 
 .header__list__item:last-child a {
