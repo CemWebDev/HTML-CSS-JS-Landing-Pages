@@ -1,2 +1,25 @@
-/* ! container starts*/
+/* ! container starts */
 /* ! container ends */
+
+/* ! header starts */
+@media only screen and (max-width: 67.5rem) {
+  .header__login button {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 53.75rem) {
+  .mobile {
+    display: block;
+  }
+  .header__nav {
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* ! header ends */

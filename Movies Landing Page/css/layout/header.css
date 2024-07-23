@@ -4,6 +4,7 @@
   height: 5.625rem;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .header i {
@@ -20,6 +21,7 @@
 
 .mobile {
   display: none;
+  color: var(--white);
 }
 .header__logo span {
   display: inline;
