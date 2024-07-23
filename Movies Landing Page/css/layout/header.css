@@ -63,3 +63,7 @@
   box-shadow: 0 0 0 2px var(--live);
   background-color: var(--live);
 }
+
+.header__input input{
+    border: 1px solid var(--white);
+}
