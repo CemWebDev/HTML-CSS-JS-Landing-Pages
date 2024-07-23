@@ -82,11 +82,14 @@
 }
 
 .header__login button {
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-    background-color: var(--white);
-    padding: .5rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: var(--white);
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+}
 
-    font-size: 1.2rem;
+.header__login button:hover {
+    background-color: var(--hover-color);
 }

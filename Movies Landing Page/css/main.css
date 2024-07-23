@@ -2,4 +2,7 @@
 @import url("./global/global.css");
 
 /* ! Layout */
-@import url('./layout/header.css')
+@import url("./layout/header.css");
+
+/* ! Media Queries */
+@import url("./utils/media-queries.css");
