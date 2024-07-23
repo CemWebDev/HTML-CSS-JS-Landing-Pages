@@ -64,6 +64,16 @@
   background-color: var(--live);
 }
 
+.header__input {
+    position: relative;
+}
+
 .header__input input{
     border: 1px solid var(--white);
+}
+
+
+.header__input i {
+    position: absolute;
+    color: var(--white);
 }
