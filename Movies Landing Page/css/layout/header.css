@@ -65,15 +65,18 @@
 }
 
 .header__input {
-    position: relative;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
-.header__input input{
-    border: 1px solid var(--white);
+.header__input input {
+  border: 1px solid var(--white);
 }
-
 
 .header__input i {
-    position: absolute;
-    color: var(--white);
+  position: absolute;
+  right: 0.25rem;
+  font-size: 1rem !important;
+  color: var(--white);
 }
