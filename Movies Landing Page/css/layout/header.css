@@ -23,6 +23,7 @@
 }
 .header__logo span {
   display: inline;
+  color: var(--logo-span);
 }
 
 .header__logo a {
