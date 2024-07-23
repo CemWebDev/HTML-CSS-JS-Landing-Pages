@@ -19,10 +19,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid var(--hover-color);
     background-color: var(--white);
     padding: 1rem 0;
     z-index: 999;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .7);
   }
   .header__list {
     flex-direction: column;
