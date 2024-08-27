@@ -1,0 +1,12 @@
+/* ! Global Components */
+@import "./global/reset.css";
+@import "./global/global.css";
+
+/* ! Layout */
+@import "./layout/header.css";
+@import "./layout/hero.css";
+@import "./layout/trends.css";
+
+/* ! Components */
+@import "./components/mobile-menu.css";
+@import "./components/trend-card.css";

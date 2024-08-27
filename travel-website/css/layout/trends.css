@@ -1,0 +1,15 @@
+.trends {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.trends .trends-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.trends .cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}

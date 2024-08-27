@@ -1,0 +1,121 @@
+:root {
+  /* ! -------- RADIUS -------- */
+  --b-radius-full: 100%;
+  --b-radius-lg: 1.125rem;
+  --b-radius-basic: 0.375rem;
+
+  /* ! -------- COLORS -------- */
+
+  /* main colors */
+  --sky1: rgb(240 249 255);
+  --sky2: rgb(224 242 254);
+  --sky3: rgb(186 230 253);
+  --sky4: rgb(125 211 252);
+  --sky5: rgb(56 189 248);
+  --sky6: rgb(14 165 233);
+  --sky7: rgb(2 132 199);
+  --sky8: rgb(3 105 161);
+  --sky9: rgb(7 89 133);
+  --sky10: rgb(12 74 110);
+
+  /* accent colors */
+  --accent-color: #ff6f61;
+  --highlight-color: #ffd700;
+
+  /* neutral colors */
+  --black: #111;
+  --white: #ffffff;
+  --gray-light: #d1d5db;
+  --gray-dark: #2d3748;
+
+  /* ! -------- BOX SHADOW -------- */
+  --shadow-lg: 0 4px 6px -1px rgb(240 240 240 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 62.5rem) {
+  .container {
+    max-width: 768px;
+  }
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-bold {
+  font-weight: 550;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.text-small {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-normal {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-large {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.flex {
+  display: flex;
+}
+.its-center {
+  align-items: center;
+}
+.jst-between {
+  justify-content: space-between;
+}
+.jst-center {
+  justify-content: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.b-radius-full {
+  border-radius: var(--b-radius-full);
+}
+.b-radius-normal {
+  border-radius: var(--b-radius-basic);
+}
+.btn {
+  padding: 0.75rem 2rem;
+  border-radius: var(--b-radius-basic);
+}
+.primary {
+  background-color: var(--sky6);
+}
+.primary:hover {
+  background-color: var(--sky7);
+}
+.accent {
+  background-color: var(--accent-color);
+}
+.accent:hover {
+  background-color: #e65c50;
+}
+.relative {
+  position: relative;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--black);
+  opacity: 0;
+}
+.btn-group {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  flex-wrap: wrap-reverse;
+}
+.light {
+  color: var(--sky1);
+}
