@@ -6,6 +6,7 @@
 @import "./layout/header.css";
 @import "./layout/hero.css";
 @import "./layout/trends.css";
+@import "./layout/section-heading.css";
 
 /* ! Components */
 @import "./components/mobile-menu.css";

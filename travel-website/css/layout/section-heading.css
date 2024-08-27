@@ -1,0 +1,27 @@
+
+.section-heading {
+    padding: 0.5rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .section-heading h1 {
+    font-size: 2.25rem;
+    color: var(--accent-color);
+  }
+  .section-heading p {
+    font-size: 1.25rem;
+    color: var(--dark-gray);
+  }
+  
+  .section-heading hr {
+    width: 70%;
+    height: 2px;
+    background: linear-gradient(to right, #f0f8ff, #555, #f0f8ff);
+    border: none;
+    margin: 20px auto;
+  }
+  
