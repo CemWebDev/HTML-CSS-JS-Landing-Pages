@@ -1,7 +1,6 @@
 .trends {
   text-align: center;
 }
-
 .trends .cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
