@@ -53,3 +53,16 @@
 .trend-card .card-content .rating i {
   color: var(--highlight-color);
 }
+
+@media only screen and (max-width: 44.6875rem) {
+  .trend-card {
+    margin: 0 auto;
+    max-width: 70%;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 30rem) {
+  .trend-card {
+    max-width: 100%;
+  }
+}
