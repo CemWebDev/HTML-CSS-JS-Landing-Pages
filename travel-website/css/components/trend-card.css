@@ -18,3 +18,38 @@
   height: 100%;
   object-fit: cover;
 }
+
+.trend-card .card-content {
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  border-radius: var(--b-radius-basic);
+  position: absolute;
+  background-color: var(--sky2);
+  padding: 0.75rem;
+  bottom: 16px;
+  text-align: start;
+  gap: .5rem;
+}
+
+.trend-card .card-content #continent {
+  color: var(--black);
+}
+
+.trend-card .card-content #card-content-desc{
+  color: var(--gray-dark);  
+  font-size: 14px;
+}
+
+.trend-card .card-content .rating {
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  background-color: var(--sky9);
+  padding: 0.25rem;
+  border-radius: var(--b-radius-basic);
+  gap: 0.375rem;
+}
+.trend-card .card-content .rating i {
+  color: var(--highlight-color);
+}
