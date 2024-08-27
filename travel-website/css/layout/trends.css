@@ -1,11 +1,31 @@
 .trends {
   text-align: center;
-  margin: 1rem 0;
 }
 
 .trends .trends-content {
-  max-width: 700px;
-  margin: 0 auto;
+  padding: 0.5rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 1rem 0;
+}
+
+.trends .trends-content h1 {
+  font-size: 2.25rem;
+  color: var(--accent-color);
+}
+.trends .trends-content p {
+  font-size: 1.25rem;
+  color: var(--dark-gray);
+}
+
+.trends-content hr {
+  width: 80%;
+  height: 2px;
+  background: linear-gradient(to right, #f0f8ff, #555, #f0f8ff);
+  border: none;
+  margin: 20px auto;
 }
 
 .trends .cards {

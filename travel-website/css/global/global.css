@@ -19,7 +19,7 @@
   --sky10: rgb(12 74 110);
 
   /* accent colors */
-  --accent-color: #ff6f61;
+  --accent-color:  #e74c3c;
   --highlight-color: #ffd700;
 
   /* neutral colors */
@@ -41,6 +41,9 @@
   .container {
     max-width: 768px;
   }
+}
+.section {
+  margin: 3.5rem 0;
 }
 .font-normal {
   font-weight: 400;
