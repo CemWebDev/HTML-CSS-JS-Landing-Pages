@@ -17,7 +17,8 @@
   max-width: 700px;
   z-index: 10;
   gap: 2.5rem;
-  text-align: center;
+  align-items: flex-start;
+  text-align: start;
 }
 
 .hero-wrapper-content h1 {
@@ -32,9 +33,7 @@
 
 @media only screen and (max-width: 31.25rem) {
   .hero-wrapper-content {
-    margin-top: 6.5rem;
-    text-align: start;
-  }
+    margin-top: 6.5rem;  }
   .hero-wrapper-content h1 {
     font-size: 2.25rem;
   }
