@@ -1,4 +1,6 @@
 .avatar {
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
   border-radius: var(--b-radius-full);
 }
 
