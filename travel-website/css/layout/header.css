@@ -1,12 +1,18 @@
 .header {
   width: 100%;
-  position: sticky;
-/*   top: 0; */
+  position: relative;
   border-bottom: 2px solid var(--sky1);
 }
 
 .header-wrapper {
   height: 6.25rem;
+}
+
+.header-wrapper .logo a {
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  color: var(--sky1);
+  font-weight: 600;
 }
 
 .header-wrapper #close-sidebar {
