@@ -29,6 +29,5 @@
   --gray-dark: #2d3748;
 
   /* ! -------- BOX SHADOW -------- */
-  --shadow-lg: 0 4px 6px -1px rgb(240 240 240 / 0.1),
-    0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.9);
 }
