@@ -96,3 +96,6 @@
 .light {
   color: var(--sky1);
 }
+.bxs-star {
+  color: var(--highlight-color);
+}
