@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--sky9);
+}
+
+.footer-wrapper {
+  padding: 1rem 0;
+  gap: 1.75rem;
+}
+
+.footer-wrapper .btn-group a {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: var(--b-radius-full);
+  background: transparent;
+  border: 2px solid var(--sky1);
+  color: var(--sky1);
+}
+
+.footer-wrapper .btn-group a:hover {
+  background-color: var(--sky10);
+}
+
+.footer-wrapper .footer-contact {
+  padding: 0 1rem;
+  gap: 1.25rem;
+}
+.footer-wrapper .footer-contact a {
+  color: var(--sky1);
+}
+.footer-wrapper .footer-contact a:hover {
+  opacity: .8;
+}
+
+@media only screen and (max-width: 36.25rem) {
+  .footer-wrapper {
+    flex-direction: column;
+  }
+}

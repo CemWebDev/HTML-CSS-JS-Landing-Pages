@@ -1,0 +1,28 @@
+.copyright {
+  background-color: var(--sky10);
+}
+
+.copyright-wrapper {
+  padding: 1rem 0;
+  gap: 1.25rem;
+}
+
+.copyright-list a {
+  color: var(--sky2);
+  font-size: 12px;
+}
+
+.copyright-list a:hover {
+  color: var(--sky3);
+}
+
+.copyright-list a:not(:last-child) {
+  border-right: 1px solid var(--sky2);
+  padding: 0 0.75rem;
+}
+
+@media only screen and (max-width: 36.25rem) {
+  .copyright-wrapper {
+    flex-direction: column;
+  }
+}

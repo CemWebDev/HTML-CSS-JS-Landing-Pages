@@ -1,21 +1,12 @@
 .header {
-  height: 6.25rem;
-  position: relative;
+  width: 100%;
+  position: sticky;
+/*   top: 0; */
   border-bottom: 2px solid var(--sky1);
 }
 
-.header-wrapper .btn-group a {
-  width: 2.25rem;
-  height: 2.25rem;
-  border-radius: var(--b-radius-full);
-  background: transparent;
-  border: 2px solid var(--sky1);
-  color: var(--sky1);
-}
-
-.header-wrapper .btn-group a:hover {
-  background-color: var(--sky8);
-  border-color: var(--sky8);
+.header-wrapper {
+  height: 6.25rem;
 }
 
 .header-wrapper #close-sidebar {
@@ -42,7 +33,7 @@
     width: 240px;
     padding: 2rem 3rem;
     top: 0;
-    right: -600px;
+    right: -100%;
     background-color: var(--sky9);
     z-index: 99;
   }

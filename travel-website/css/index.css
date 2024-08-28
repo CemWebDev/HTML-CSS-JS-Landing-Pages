@@ -9,10 +9,13 @@
 @import "./layout/section-heading.css";
 @import "./layout/gallery.css";
 @import "./layout/contact.css";
+@import "./layout/footer.css";
 
 /* ! Components */
 @import "./components/mobile-menu.css";
 @import "./components/trend-card.css";
 @import "./components/input.css";
+@import "./components/copyright.css";
 
+/* ! utils */
 @import "./utils/variables.css";
