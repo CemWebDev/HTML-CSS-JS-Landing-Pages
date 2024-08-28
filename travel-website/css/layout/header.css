@@ -42,8 +42,8 @@
     width: 240px;
     padding: 2rem 3rem;
     top: 0;
-    right: -31.25rem;
-    background-color: var(--sky);
+    right: -600px;
+    background-color: var(--sky9);
     z-index: 99;
   }
   .header-wrapper #close-sidebar {
