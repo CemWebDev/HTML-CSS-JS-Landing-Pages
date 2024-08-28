@@ -56,6 +56,8 @@
 .btn {
   padding: 1rem 2.25rem;
   border-radius: var(--b-radius-basic);
+  text-transform: capitalize;
+  font-weight: 550;
 }
 .primary {
   background-color: var(--sky6);
