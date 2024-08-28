@@ -1,6 +1,6 @@
 .hero {
-  background: hsla(0, 0%, 0%, 0.75)
-  url("../../images/hero-overlay.png")
+  background: hsla(0, 0%, 0%, 0.65)
+  url("../../images/hero-overlay.jpeg")
     no-repeat center/cover;
   background-blend-mode: overlay;
   min-height: 100vh;
