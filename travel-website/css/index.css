@@ -8,7 +8,11 @@
 @import "./layout/trends.css";
 @import "./layout/section-heading.css";
 @import "./layout/gallery.css";
+@import "./layout/contact.css";
 
 /* ! Components */
 @import "./components/mobile-menu.css";
 @import "./components/trend-card.css";
+
+
+@import "./utils/variables.css";

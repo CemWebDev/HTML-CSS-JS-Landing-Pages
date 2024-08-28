@@ -1,0 +1,54 @@
+.contact {
+  background-color: var(--accent-color);
+}
+
+.contact-wrapper {
+  padding: 3rem 0;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.contact-heading,
+.contact-form {
+  flex: 1 1 28rem;
+}
+
+.contact-heading {
+  text-align: start;
+  padding: 1rem;
+}
+
+.input-wrapper {
+  border: 1px solid var(--white);
+  margin: 1rem 0;
+  padding-left: 1rem;
+  border-radius: var(--b-radius-basic);
+  gap: 0.5rem;
+}
+
+.input-wrapper i {
+  font-size: 1.25rem;
+  color: var(--white);
+}
+
+.contact-form {
+  padding: 1rem;
+  border-radius: var(--b-radius-basic);
+}
+
+.contact-form input {
+  background: transparent;
+  color: var(--white);
+  padding: 1rem;
+  width: 100%;
+  text-transform: none;
+  font-size: 1.25rem;
+}
+
+input::placeholder {
+  color: var(--white);
+}
+
+.contact-form button {
+  width: 100%;
+}
