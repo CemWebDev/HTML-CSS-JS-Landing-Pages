@@ -10,12 +10,14 @@
 @import "./layout/gallery.css";
 @import "./layout/contact.css";
 @import "./layout/footer.css";
+@import "./layout/testimonials.css";
 
 /* ! Components */
 @import "./components/mobile-menu.css";
 @import "./components/trend-card.css";
 @import "./components/input.css";
 @import "./components/copyright.css";
+@import "./components/testimonial-card.css";
 
 /* ! utils */
 @import "./utils/variables.css";
