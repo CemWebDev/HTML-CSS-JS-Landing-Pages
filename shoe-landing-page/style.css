@@ -49,7 +49,7 @@ button:hover {
   min-height: 100vh;
   width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 7%;
   display: flex;
   flex-direction: column;
 }
@@ -196,7 +196,12 @@ button:hover {
   }
 }
 
-@media only screen and (max-width: 75rem) {
+@media only screen and (max-width: 80rem) {
+  .content {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
   .circle {
     width: 130vmin;
     height: 130vmin;
@@ -205,13 +210,7 @@ button:hover {
     top: 0;
   }
 }
-@media only screen and (max-width: 62.5rem) {
-  .content {
-    flex-direction: column-reverse;
-    gap: 2rem;
-    padding: 1.5rem;
-  }
-}
+
 @media only screen and (max-width: 38.75rem) {
   .menu__list li:not(.menu__list--cart) {
     display: none;
