@@ -47,10 +47,9 @@ button:hover {
 }
 .container {
   min-height: 100vh;
-  max-width: 81.25rem;
   width: 100%;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -116,13 +115,13 @@ button:hover {
 .content__header {
   display: flex;
   flex-direction: column;
-  align-items: flex-start ;
+  align-items: flex-start;
   gap: 1rem;
   text-transform: uppercase;
 }
 .content__header > div:first-child {
   display: flex;
-  align-items: flex-start;  
+  align-items: flex-start;
   flex-direction: column;
 }
 .content__header > div:first-child h2 {
@@ -133,7 +132,7 @@ button:hover {
 }
 .content__header p {
   font-weight: 550;
-  opacity: .65;
+  opacity: 0.65;
 }
 .content__header button:hover {
   will-change: transform;
@@ -167,6 +166,36 @@ button:hover {
   }
 }
 
+@media only screen and (min-width: 40rem) {
+  .container {
+    max-width: 40rem;
+  }
+}
+
+@media only screen and (min-width: 48rem) {
+  .container {
+    max-width: 48rem;
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .container {
+    max-width: 64rem;
+  }
+}
+
+@media only screen and (min-width: 80rem) {
+  .container {
+    max-width: 80rem;
+  }
+}
+
+@media only screen and (min-width: 96rem) {
+  .container {
+    max-width: 96rem;
+  }
+}
+
 @media only screen and (max-width: 75rem) {
   .circle {
     width: 130vmin;
@@ -177,9 +206,6 @@ button:hover {
   }
 }
 @media only screen and (max-width: 62.5rem) {
-  .container {
-    max-width: 992px;
-  }
   .content {
     flex-direction: column-reverse;
     gap: 2rem;
